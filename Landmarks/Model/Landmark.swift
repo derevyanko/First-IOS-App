@@ -32,5 +32,4 @@ struct Landmark: Hashable, Codable {
         var latitude: Double
         var longitude: Double
     }
-
 }
