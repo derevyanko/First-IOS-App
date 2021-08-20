@@ -168,8 +168,8 @@
 		0770EB8026C6986300C38F31 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				07A56C7826CFFAE30026AC85 /* Categories */,
 				071E3E4726C5669C002DA2EC /* ContentView.swift */,
+				07A56C7826CFFAE30026AC85 /* Categories */,
 				0770EB9026CA833700C38F31 /* Helpers */,
 				0770EB8F26CA832600C38F31 /* Landmarks */,
 			);
