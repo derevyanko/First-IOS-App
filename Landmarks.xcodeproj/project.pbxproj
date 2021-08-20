@@ -28,6 +28,7 @@
 		07A56C7526CFD3330026AC85 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A56C7126CFD3330026AC85 /* HikeGraph.swift */; };
 		07A56C7626CFD3330026AC85 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A56C7226CFD3330026AC85 /* HikeDetail.swift */; };
 		07A56C7726CFD3330026AC85 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A56C7326CFD3330026AC85 /* HikeView.swift */; };
+		07A56C7A26CFFB020026AC85 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A56C7926CFFB020026AC85 /* CategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		07A56C7126CFD3330026AC85 /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		07A56C7226CFD3330026AC85 /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		07A56C7326CFD3330026AC85 /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		07A56C7926CFFB020026AC85 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 		0770EB8026C6986300C38F31 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				07A56C7826CFFAE30026AC85 /* Categories */,
 				071E3E4726C5669C002DA2EC /* ContentView.swift */,
 				0770EB9026CA833700C38F31 /* Helpers */,
 				0770EB8F26CA832600C38F31 /* Landmarks */,
@@ -221,6 +224,14 @@
 				07A56C7326CFD3330026AC85 /* HikeView.swift */,
 			);
 			path = Hikes;
+			sourceTree = "<group>";
+		};
+		07A56C7826CFFAE30026AC85 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				07A56C7926CFFB020026AC85 /* CategoryHome.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,6 +369,7 @@
 				0770EB7726C67BE100C38F31 /* MapView.swift in Sources */,
 				071E3E4626C5669C002DA2EC /* LandmarksApp.swift in Sources */,
 				0770EB8E26CA816900C38F31 /* FavoriteButton.swift in Sources */,
+				07A56C7A26CFFB020026AC85 /* CategoryHome.swift in Sources */,
 				07A56C6E26CFD2B30026AC85 /* Hike.swift in Sources */,
 				0770EB8626C69C8400C38F31 /* LandmarkList.swift in Sources */,
 				0770EB8826C6A28A00C38F31 /* LandmarkDetail.swift in Sources */,
